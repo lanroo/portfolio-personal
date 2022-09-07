@@ -5,6 +5,10 @@ import { Banner } from "./componentes/Banner";
 import { Skills } from "./componentes/Skills";
 
 import { Projects } from "./componentes/Projects";
+
+import { Contact } from "./componentes/Contact";
+import { Footer } from "./componentes/Footer";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -15,6 +19,8 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
       
     </div>
   );
